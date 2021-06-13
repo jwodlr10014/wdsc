@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>부트스트랩</title>
+<meta charset="utf-8">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<link rel="stylesheet" href="css/styles.css">
+
+  <style>
+    .navbar-brand{
+  margin-left: 40px;
+}
+.navbar-nav{
+  margin-right: 5px;
+}
+.offcanvas-header h5{
+  font-size: 32px;
+  margin-left:130px;
+  border-bottom: 1px solid;
+}
+.offcanvas-body h6{
+  text-align: center;
+  margin-top: 50px;
+}
+.offcanvas-body a{
+  text-decoration: none;
+  color: black;
+}
+.box2{
+   margin-top: 100px;
+      height: 200px;
+     
+      background-color: #edeeec;
+        
+    }
+.box2 p{
+  display: inline-block;
+  position: relative;
+  margin-right: 10px;
+  margin-left: 20px;
+  color: #6b6b6b;
+  top:127px;
+  font-size: 14px;
+ 
+}
+
+.box2 h5{
+  text-align: center;
+  font-size: 14px;
+  margin-top:90px;
+   color: #6b6b6b;
+  
+}
+.item{
+      margin-left: auto;
+      margin-right: auto;
+      width: 1440px;
+  
+}
+.item h1{
+  font-size: 25px;
+  margin-top:50px;
+  margin-bottom: 30px;
+}
+.item2 a{
+  display:inline-block;
+  text-decoration: none;
+  color: black;
+}
+.item2{
+      border-bottom-style: solid;
+      border-bottom-color: #E5E5E5;
+      border-width: 1px;
+  margin-bottom: 20px;
+  
+}
+.search {
+    position: relative;
+    
+    width: 400px;
+  padding-bottom: 20px;
+}
+input {
+    border-radius: 3px;
+    border: 1px solid #bbb;
+    margin: 10px 0;
+    padding: 10px 12px;
+}
+button{
+  color: white;
+    border-radius: 3px;
+    border: 1px solid #bbb;
+    margin: 10px 0;
+    padding: 10px 12px;
+background-color: #2E2E2E;
+}
+.fa-search {
+    position: absolute;
+    left: 15px;
+    top: 20px;
+    margin: 0;
+}
+.middle{
+  margin-top: 10px;
+  font-size: 14x;
+  font-weight: 300;
+  
+}
+
+.middle a{
+   color: black;
+    text-decoration: none;
+  margin-right: 15px;
+}
+P{
+  font-size: 14px;
+  line-height:15px;
+  
+}
+  </style>
+  
+</head>
+<body>
+  
+  
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="file:///C:/Users/%EC%A0%9C%EA%B8%B0%EC%B0%A8%EA%B8%B0/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/index.html">BRAND</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+        <li class="nav-item">
+          <a class="nav-link" href="#">카테고리</a> 
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">이용안내</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="file:///C:/Users/%EC%A0%9C%EA%B8%B0%EC%B0%A8%EA%B8%B0/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/%EC%9D%B4%EC%9A%A9%ED%9B%84%EA%B8%B0.html">이용후기</a> 
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///C:/Users/%EC%A0%9C%EA%B8%B0%EC%B0%A8%EA%B8%B0/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/%EA%B3%A0%EA%B0%9D%EC%84%BC%ED%84%B0.html#">고객센터</a>
+        </li>
+      </ul>
+
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="file:///C:/Users/%EC%A0%9C%EA%B8%B0%EC%B0%A8%EA%B8%B0/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85%EC%B0%BD.html">회원가입</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///C:/Users/%EC%A0%9C%EA%B8%B0%EC%B0%A8%EA%B8%B0/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/%EB%A1%9C%EA%B7%B8%EC%9D%B8%EC%B0%BD.html">로그인</a>
+        </li>
+      </ul>
+      
+  </div>
+  <button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><img src="https://i.postimg.cc/5y0wG26n/imagessss.png" width=40></button>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasRightLabel">BRAND</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <h6><a href="#">작가 입점</a></h6>
+    <h6><a href="file:///C:/Users/%EC%A0%9C%EA%B8%B0%EC%B0%A8%EA%B8%B0/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/%EC%9E%91%EC%97%85%EC%9D%98%EB%A2%B0.html">작업 의뢰</a></h6>
+    <h6><a href="#">외주 문의</a></h6>
+    <h6><a href="#">공지사항</a></h6>
+    <h6><a href="file:///C:/Users/%EC%A0%9C%EA%B8%B0%EC%B0%A8%EA%B8%B0/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/index.html">인기작가</a></h6>
+  </div>
+</div>
+</nav>
+ 
+
+<div class="item">
+  <div class="item2">
+    <h1>작업의뢰</h1>
+    <a href="#"><p>주문관리</p></a>
+  </div>
+  <P>1. 작가의 연락처는 결제가 확인 후에 [자세히] 버튼을 누르시면 나옵니다.</P>
+  <P>2. 추가 금액 - 결제 완료된 주문건에 대해 추가 금액을 결제할 수 있습니다.</P>
+  <P>3. 입금을 했는데 '입금대기중' 상태로 나온다면 [자세히] 버튼을 누르고 [입금확인 요청]을 누르세요.</P>
+  <P>4. 안전한 거래를 위해 반드시 최종 결과물을 받으신 후에 [수령완료] 버튼을 누르셔야 합니다.</P>
+  <P>5. '수령완료' 처리가 되면 작가에게 결제 대금이 입금됩니다. [수령완료] 버튼은 주문 상태가 진행중일 때 나타납니다.
+</P>
+  
+  
+  
+<table class="table">
+	<thead>
+		<tr>
+			<th>의뢰번호</th>
+			<th>주문 내용</th>
+			<th>작가명</th>
+			<th>금액</th>
+			<th>날짜</th>
+		</tr>
+	</thead>
+	<tbody>
+    <tr>
+			<td>1</td>
+			<td>간단한 캐릭터를 이용한 웹소설 표지</td>
+			<td>에드</td>
+      <td>100,000</td>
+      <td>2021.06.09</td>
+		</tr>
+   <tr>
+			<td>2</td>
+			<td>상업적 이용가능한 중세시대 귀족 모습의 여성 캐릭터</td>
+			<td>MOMA</td>
+      <td>450,000</td>
+      <td>2021.06.09</td>
+		</tr>
+    <tr>
+			<td>3</td>
+			<td>남성 캐릭터 LD사이즈 전신그림</td>
+			<td>Norang</td>
+      <td>50,000</td>
+      <td>2021.06.09</td>
+		</tr>
+    <tr>
+			<td>4</td>
+			<td>귀여운 SD캐릭터 일러스트</td>
+			<td>좋아해</td>
+      <td>20.000</td>
+      <td>2021.06.09</td>
+		</tr>
+   
+	</tbody>
+</table>
+  </div>
+
+<script src="js/jquery-3.1.1.js"></script>
+<script src="js/bootstrap.js"></script>
+
+    <nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+  
+  <div class="box2">
+    <p>BRAND</p><p>제휴제안 ㅣ 기업윤리 ㅣ 상담센터 ㅣ 개인정보 ㅣ 처리방침 </p>
+	
+    <div><h5>Copyright@BRAND Corp. All Rights Reserved.</h5>
+      
+    </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+  
+  </body>
+  </html>
